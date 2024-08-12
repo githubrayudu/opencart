@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class AccountRegistrartionPage extends BasePage {
+
 	public AccountRegistrartionPage(WebDriver driver) {
 		super(driver);
 	}
@@ -13,7 +14,7 @@ public class AccountRegistrartionPage extends BasePage {
 	WebElement txtFirstname;
 
 	@FindBy(xpath = "//input[@id='input-lastname']")
-	WebElement txtLastname;
+	WebElement txtLasttname;
 
 	@FindBy(xpath = "//input[@id='input-email']")
 	WebElement txtEmail;
@@ -28,7 +29,7 @@ public class AccountRegistrartionPage extends BasePage {
 	WebElement txtConfirmPassword;
 
 	@FindBy(xpath = "//input[@name='agree']")
-	WebElement chkbPolicy;
+	WebElement chkdPolicy;
 
 	@FindBy(xpath = "//input[@value='Continue']")
 	WebElement btnContinue;
@@ -36,40 +37,63 @@ public class AccountRegistrartionPage extends BasePage {
 	@FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
 	WebElement msgConfirmation;
 
-	@FindBy(xpath = "//a[normalize-space()='Continue']")
-	WebElement btnContinueAfterGettingMessage;
-
 	public void setFirstName(String fname) {
-
 		txtFirstname.sendKeys(fname);
+
 	}
 
 	public void setLastName(String lname) {
-		txtLastname.sendKeys(lname);
+		txtLasttname.sendKeys(lname);
+
 	}
 
 	public void setEmail(String email) {
 		txtEmail.sendKeys(email);
+
 	}
 
-	public void SetTelephoneNo(String tel) {
+	public void setTelephone(String tel) {
 		txtTelephone.sendKeys(tel);
+
 	}
 
 	public void setPassword(String pwd) {
 		txtPassword.sendKeys(pwd);
+
 	}
 
 	public void setConfirmPassword(String pwd) {
 		txtConfirmPassword.sendKeys(pwd);
+
 	}
 
 	public void setPrivacyPolicy() {
-		chkbPolicy.click();
+		chkdPolicy.click();
+
 	}
 
 	public void clickContinue() {
+		// sol1
 		btnContinue.click();
+
+		// sol2
+		// btnContinue.submit();
+
+		// sol3
+		// Actions act=new Actions(driver);
+		// act.moveToElement(btnContinue).click().perform();
+
+		// sol4
+		// JavascriptExecutor js=(JavascriptExecutor)driver;
+		// js.executeScript("arguments[0].click();", btnContinue);
+
+		// Sol 5
+		// btnContinue.sendKeys(Keys.RETURN);
+
+		// Sol6
+		// WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		// mywait.until(ExpectedConditions.elementToBeClickable(btnContinue)).click();
+
 	}
 
 	public String getConfirmationMsg() {
@@ -77,11 +101,8 @@ public class AccountRegistrartionPage extends BasePage {
 			return (msgConfirmation.getText());
 		} catch (Exception e) {
 			return (e.getMessage());
+
 		}
-	}
 
-	public void clickContinueAfterGettingMessage() {
-		btnContinueAfterGettingMessage.click();
 	}
-
 }

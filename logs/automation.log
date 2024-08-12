@@ -1,0 +1,176 @@
+2024-08-11 21:22:18 INFO  TC001_AccountRegistrationTest:16 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-08-11 21:22:18 DEBUG TC001_AccountRegistrationTest:17 -
+			This is a debug log message
+2024-08-11 21:22:18 INFO  TC001_AccountRegistrationTest:22 -
+			Clicked on MyAccount Link.. 
+2024-08-11 21:22:19 INFO  TC001_AccountRegistrationTest:25 -
+			Clicked on Register Link.. 
+2024-08-11 21:22:19 INFO  TC001_AccountRegistrationTest:29 -
+			Providing customer details...
+2024-08-11 21:22:21 INFO  TC001_AccountRegistrationTest:43 -
+			Validating expected message..
+2024-08-11 21:22:21 INFO  TC001_AccountRegistrationTest:48 -
+			Test passed
+2024-08-11 21:22:21 INFO  TC001_AccountRegistrationTest:58 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-08-11 21:22:54 INFO  TC001_AccountRegistrationTest:16 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-08-11 21:22:54 DEBUG TC001_AccountRegistrationTest:17 -
+			This is a debug log message
+2024-08-11 21:22:54 INFO  TC001_AccountRegistrationTest:22 -
+			Clicked on MyAccount Link.. 
+2024-08-11 21:22:54 INFO  TC001_AccountRegistrationTest:25 -
+			Clicked on Register Link.. 
+2024-08-11 21:22:54 INFO  TC001_AccountRegistrationTest:29 -
+			Providing customer details...
+2024-08-11 21:22:57 INFO  TC001_AccountRegistrationTest:43 -
+			Validating expected message..
+2024-08-11 21:22:57 INFO  TC001_AccountRegistrationTest:48 -
+			Test passed
+2024-08-11 21:22:57 INFO  TC001_AccountRegistrationTest:58 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-08-11 21:38:33 INFO  TC001_AccountRegistrationTest:15 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-08-11 21:38:33 DEBUG TC001_AccountRegistrationTest:16 -
+			This is a debug log message
+2024-08-11 21:38:34 INFO  TC001_AccountRegistrationTest:20 -
+			Clicked on MyAccount Link.. 
+2024-08-11 21:38:34 INFO  TC001_AccountRegistrationTest:22 -
+			Clicked on Register Link.. 
+2024-08-11 21:38:34 INFO  TC001_AccountRegistrationTest:24 -
+			Providing customer details...
+2024-08-11 21:38:36 INFO  TC001_AccountRegistrationTest:36 -
+			Validating expected message..
+2024-08-11 21:38:36 INFO  TC001_AccountRegistrationTest:40 -
+			Test passed
+2024-08-11 21:38:36 INFO  TC001_AccountRegistrationTest:46 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-08-11 21:38:39 INFO  TC001_AccountRegistrationTest:15 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-08-11 21:38:39 DEBUG TC001_AccountRegistrationTest:16 -
+			This is a debug log message
+2024-08-11 21:38:39 INFO  TC001_AccountRegistrationTest:20 -
+			Clicked on MyAccount Link.. 
+2024-08-11 21:38:39 INFO  TC001_AccountRegistrationTest:22 -
+			Clicked on Register Link.. 
+2024-08-11 21:38:39 INFO  TC001_AccountRegistrationTest:24 -
+			Providing customer details...
+2024-08-11 21:38:42 INFO  TC001_AccountRegistrationTest:36 -
+			Validating expected message..
+2024-08-11 21:38:42 INFO  TC001_AccountRegistrationTest:40 -
+			Test passed
+2024-08-11 21:38:42 INFO  TC001_AccountRegistrationTest:46 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-08-11 21:39:21 INFO  TC001_AccountRegistrationTest:15 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-08-11 21:39:21 DEBUG TC001_AccountRegistrationTest:16 -
+			This is a debug log message
+2024-08-11 21:39:21 INFO  TC001_AccountRegistrationTest:20 -
+			Clicked on MyAccount Link.. 
+2024-08-11 21:39:21 INFO  TC001_AccountRegistrationTest:22 -
+			Clicked on Register Link.. 
+2024-08-11 21:39:21 INFO  TC001_AccountRegistrationTest:24 -
+			Providing customer details...
+2024-08-11 21:39:24 INFO  TC001_AccountRegistrationTest:36 -
+			Validating expected message..
+2024-08-11 21:39:24 INFO  TC001_AccountRegistrationTest:40 -
+			Test passed
+2024-08-11 21:39:24 INFO  TC001_AccountRegistrationTest:46 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-08-11 22:02:52 INFO  TC001_AccountRegistrationTest:15 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-08-11 22:02:52 DEBUG TC001_AccountRegistrationTest:16 -
+			This is a debug log message
+2024-08-11 22:02:52 INFO  TC001_AccountRegistrationTest:20 -
+			Clicked on MyAccount Link.. 
+2024-08-11 22:02:52 INFO  TC001_AccountRegistrationTest:22 -
+			Clicked on Register Link.. 
+2024-08-11 22:02:52 INFO  TC001_AccountRegistrationTest:24 -
+			Providing customer details...
+2024-08-11 22:02:55 INFO  TC001_AccountRegistrationTest:36 -
+			Validating expected message..
+2024-08-11 22:02:55 INFO  TC001_AccountRegistrationTest:40 -
+			Test passed
+2024-08-11 22:02:55 INFO  TC001_AccountRegistrationTest:46 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-08-11 22:02:58 INFO  TC001_AccountRegistrationTest:15 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-08-11 22:02:58 DEBUG TC001_AccountRegistrationTest:16 -
+			This is a debug log message
+2024-08-11 22:02:58 INFO  TC001_AccountRegistrationTest:20 -
+			Clicked on MyAccount Link.. 
+2024-08-11 22:02:58 INFO  TC001_AccountRegistrationTest:22 -
+			Clicked on Register Link.. 
+2024-08-11 22:02:58 INFO  TC001_AccountRegistrationTest:24 -
+			Providing customer details...
+2024-08-11 22:03:01 INFO  TC001_AccountRegistrationTest:36 -
+			Validating expected message..
+2024-08-11 22:03:01 INFO  TC001_AccountRegistrationTest:40 -
+			Test passed
+2024-08-11 22:03:01 INFO  TC001_AccountRegistrationTest:46 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-08-11 22:03:03 INFO  TC001_AccountRegistrationTest:15 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-08-11 22:03:03 DEBUG TC001_AccountRegistrationTest:16 -
+			This is a debug log message
+2024-08-11 22:03:03 INFO  TC001_AccountRegistrationTest:20 -
+			Clicked on MyAccount Link.. 
+2024-08-11 22:03:03 INFO  TC001_AccountRegistrationTest:22 -
+			Clicked on Register Link.. 
+2024-08-11 22:03:03 INFO  TC001_AccountRegistrationTest:24 -
+			Providing customer details...
+2024-08-11 22:03:06 INFO  TC001_AccountRegistrationTest:36 -
+			Validating expected message..
+2024-08-11 22:03:06 INFO  TC001_AccountRegistrationTest:40 -
+			Test passed
+2024-08-11 22:03:06 INFO  TC001_AccountRegistrationTest:46 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-08-11 22:41:55 INFO  TC001_AccountRegistrationTest:15 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-08-11 22:41:55 DEBUG TC001_AccountRegistrationTest:16 -
+			This is a debug log message
+2024-08-11 22:41:55 INFO  TC001_AccountRegistrationTest:20 -
+			Clicked on MyAccount Link.. 
+2024-08-11 22:41:55 INFO  TC001_AccountRegistrationTest:22 -
+			Clicked on Register Link.. 
+2024-08-11 22:41:55 INFO  TC001_AccountRegistrationTest:24 -
+			Providing customer details...
+2024-08-11 22:41:58 INFO  TC001_AccountRegistrationTest:36 -
+			Validating expected message..
+2024-08-11 22:41:58 INFO  TC001_AccountRegistrationTest:40 -
+			Test passed
+2024-08-11 22:41:58 INFO  TC001_AccountRegistrationTest:46 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-08-11 22:42:01 INFO  TC001_AccountRegistrationTest:15 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-08-11 22:42:01 DEBUG TC001_AccountRegistrationTest:16 -
+			This is a debug log message
+2024-08-11 22:42:01 INFO  TC001_AccountRegistrationTest:20 -
+			Clicked on MyAccount Link.. 
+2024-08-11 22:42:01 INFO  TC001_AccountRegistrationTest:22 -
+			Clicked on Register Link.. 
+2024-08-11 22:42:01 INFO  TC001_AccountRegistrationTest:24 -
+			Providing customer details...
+2024-08-11 22:42:03 INFO  TC001_AccountRegistrationTest:36 -
+			Validating expected message..
+2024-08-11 22:42:03 INFO  TC001_AccountRegistrationTest:40 -
+			Test passed
+2024-08-11 22:42:03 INFO  TC001_AccountRegistrationTest:46 -
+			***** Finished TC001_AccountRegistrationTest *****
+2024-08-11 22:42:06 INFO  TC001_AccountRegistrationTest:15 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2024-08-11 22:42:06 DEBUG TC001_AccountRegistrationTest:16 -
+			This is a debug log message
+2024-08-11 22:42:06 INFO  TC001_AccountRegistrationTest:20 -
+			Clicked on MyAccount Link.. 
+2024-08-11 22:42:06 INFO  TC001_AccountRegistrationTest:22 -
+			Clicked on Register Link.. 
+2024-08-11 22:42:06 INFO  TC001_AccountRegistrationTest:24 -
+			Providing customer details...
+2024-08-11 22:42:09 INFO  TC001_AccountRegistrationTest:36 -
+			Validating expected message..
+2024-08-11 22:42:09 INFO  TC001_AccountRegistrationTest:40 -
+			Test passed
+2024-08-11 22:42:09 INFO  TC001_AccountRegistrationTest:46 -
+			***** Finished TC001_AccountRegistrationTest *****
