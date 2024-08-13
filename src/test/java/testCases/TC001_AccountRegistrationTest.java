@@ -1,6 +1,17 @@
 package testCases;
 
+import java.io.FileReader;
+import java.io.IOException;
+import java.time.Duration;
+import java.util.Properties;
+
+import org.apache.logging.log4j.LogManager;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import pageObjects.AccountRegistrartionPage;
@@ -9,7 +20,7 @@ import pageObjects.HomePage;
 import testBase.BaseClass;
 
 public class TC001_AccountRegistrationTest extends BaseClass {
-
+	
 	@Test()
 	public void verify_account_registration() {
 		logger.info("***** Starting TC001_AccountRegistrationTest  ****");
@@ -46,6 +57,8 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 			logger.info("***** Finished TC001_AccountRegistrationTest *****");
 		}
 
-	}
+			}
+	
+
 
 }

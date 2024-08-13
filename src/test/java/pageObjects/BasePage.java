@@ -11,6 +11,5 @@ public class BasePage {
 			
 		this.driver =driver;
 		PageFactory.initElements(driver,this);
-	
 	}
 }

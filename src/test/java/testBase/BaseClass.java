@@ -24,15 +24,16 @@ public class BaseClass {
 	@BeforeClass
 
 	@Parameters({ "os", "browser" })
-	public void setup(String os, String br) throws IOException  {
+	public void setup(String os, String br) throws IOException {
 
-		// Loading config.properties file
-		FileReader file = new FileReader("./src//test//resorces//config.properties");
-		p = new Properties();
-		p.load(file);
 		
+//		Loading config.properties file 
+		FileReader file = new  FileReader("./src//test//resorces//config.properties"); p = new Properties();
+		  p.load(file);
+		 
 
 		logger = LogManager.getLogger(this.getClass());// Log4j
+
 		switch (br.toLowerCase()) {
 		case "chrome":
 			driver = new ChromeDriver();
