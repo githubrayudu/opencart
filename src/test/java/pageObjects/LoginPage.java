@@ -8,28 +8,30 @@ public class LoginPage extends BasePage {
 
 	public LoginPage(WebDriver driver) {
 		super(driver);
-
 	}
 
 	@FindBy(xpath = "//input[@id='input-email']")
-	WebElement txtLoginId;
+	WebElement txtEmailAddress;
+
 	@FindBy(xpath = "//input[@id='input-password']")
-	WebElement txtLoginPassword;
-	
+	WebElement txtPassword;
+
 	@FindBy(xpath = "//input[@value='Login']")
 	WebElement btnLogin;
 
-	public void setLoginName(String name) {
 
-		txtLoginId.sendKeys(name);
+	public void setEmail(String email) {
+		txtEmailAddress.sendKeys(email);
 	}
 
-	public void setLoginPassword(String password) {
-
-		txtLoginPassword.sendKeys(password);
+	public void setPassword(String pwd) {
+		txtPassword.sendKeys(pwd);
 	}
 
 	public void clickLogin() {
 		btnLogin.click();
 	}
+
+	
+
 }

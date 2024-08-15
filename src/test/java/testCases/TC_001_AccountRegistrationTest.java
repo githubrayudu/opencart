@@ -1,17 +1,6 @@
 package testCases;
 
-import java.io.FileReader;
-import java.io.IOException;
-import java.time.Duration;
-import java.util.Properties;
-
-import org.apache.logging.log4j.LogManager;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import pageObjects.AccountRegistrartionPage;
@@ -29,7 +18,7 @@ public class TC_001_AccountRegistrationTest extends BaseClass {
 			HomePage hp = new HomePage(driver);
 			hp.clickMyAccount();
 			logger.info("Clicked on MyAccount Link.. ");
-			hp.clickRegistration();
+			hp.clickRegister();
 			logger.info("Clicked on Register Link.. ");
 			AccountRegistrartionPage regpage = new AccountRegistrartionPage(driver);
 			logger.info("Providing customer details...");
