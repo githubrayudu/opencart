@@ -4,9 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class MyAccoutPage extends BasePage {
+public class MyAccountPage extends BasePage {
 
-	public MyAccoutPage(WebDriver driver) {
+	public MyAccountPage(WebDriver driver) {
 		super(driver);
 	}
 
@@ -16,7 +16,7 @@ public class MyAccoutPage extends BasePage {
 	@FindBy(xpath = "//a[@class='list-group-item'][normalize-space()='Logout']")
 	WebElement linkLogout;
 
-	public boolean isMyAccoutnPageExistes() {
+	public boolean isMyAccountPageExists() {
 		try {
 			return (msgHeading.isDisplayed());
 		} catch (Exception e) {

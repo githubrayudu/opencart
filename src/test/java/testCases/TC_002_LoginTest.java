@@ -5,11 +5,11 @@ import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
-import pageObjects.MyAccoutPage;
+import pageObjects.MyAccountPage;
 import testBase.BaseClass;
 import utilities.DataProviders;
 
-public class TC002_LoginTest extends BaseClass {
+public class TC_002_LoginTest extends BaseClass {
 
 	@Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class)
 	public void verify_login() {
@@ -30,8 +30,8 @@ public class TC002_LoginTest extends BaseClass {
 			lp.clickLogin();
 
 			// MyAccount
-			MyAccoutPage macc = new MyAccoutPage(driver);
-			boolean targetPage = macc.isMyAccoutnPageExistes();
+			MyAccountPage macc = new MyAccountPage(driver);
+			boolean targetPage = macc.isMyAccountPageExists();
 			// Assert.assertTrue(targetPage);
 			Assert.assertEquals(targetPage, true);
 
