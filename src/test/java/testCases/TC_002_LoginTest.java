@@ -11,7 +11,7 @@ import testBase.BaseClass;
 public class TC_002_LoginTest extends BaseClass
 {
 
-	@Test
+	@Test(groups = {"regression","master"})
 	public void verify_login()
 	{
 		logger.info("**** Starting TC_002_LoginTest  ****");
