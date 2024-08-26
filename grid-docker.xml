@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<groups>
-		<run>
-			<!--<include name="sanity" />
-			<include name="regression" />-->
-			<include name="master" />
-			<!--			<exclude name="sanity"/>
-			<exclude name="regression"/>-->
-		</run>
-	</groups>
 	<listeners>
 		<listener class-name="utilities.ExtentReportManager" />
 	</listeners>
-	<test thread-count="5" name="Test">
-		<parameter name="os" value="Windows" />
+	<test name="LinuxTest">
+		<parameter name="os" value="Linux" />
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="testCases.TC_002_LoginTest" />
@@ -22,7 +13,21 @@
 			<class name="testCases.TC_001_AccountRegistrationTest" />
 			<class name="testCases.TC_003_LoginDDT" />
 		</classes>
-	</test> <!--
-	Test -->
+	</test> 
+	
+	
+	
+	<!--
+	<test name="LinuxTest">
+		<parameter name="os" value="Linux" />
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="testCases.TC_002_LoginTest" />
+			<class name="testBase.BaseClass" />
+			<class name="testCases.TC_001_AccountRegistrationTest" />
+			<class name="testCases.TC_003_LoginDDT" />
+		</classes>
+	</test>-->
+
 </suite> <!--
 Suite -->
