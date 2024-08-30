@@ -36,7 +36,7 @@ public void clickRegister()
 
 public void clickLogin()    // added in step5
 {
-	linkLogin.click();
+	linkLogin.isEnabled();
 }
 
 
