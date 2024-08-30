@@ -37,6 +37,7 @@ public void clickRegister()
 public void clickLogin()    // added in step5
 {
 	linkLogin.click();
+	System.out.println("validation for the login in present or not "+linkLogin.isDisplayed());
 }
 
 
