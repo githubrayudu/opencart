@@ -12,13 +12,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_003_LoginDDT -->
-      <class name="testCases.TC_001_AccountRegistrationTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verify_account_registration"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
       <class name="testCases.TC_002_LoginTest">
         <methods>
           <include name="tearDown"/>
@@ -26,6 +19,13 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_002_LoginTest -->
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_account_registration"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
