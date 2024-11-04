@@ -5,20 +5,6 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_003_LoginDDT">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verify_loginDDT"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_003_LoginDDT -->
-      <class name="testCases.TC_002_LoginTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verify_login"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_002_LoginTest -->
       <class name="testCases.TC_001_AccountRegistrationTest">
         <methods>
           <include name="tearDown"/>
